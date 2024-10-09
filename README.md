@@ -14,7 +14,7 @@ O objetivo desta atividade prática é realizar testes de integração de um sis
 
 ## Estrutura do Teste CRUD
 
-O arquivo de teste `agendamentos.test.js` implementa as seguintes operações do CRUD (Create, Read, Update, Delete):
+O arquivo de teste `app.test.js` implementa as seguintes operações do CRUD (Create, Read, Update, Delete):
 
 1. **Inserção** - Verifica se um novo agendamento pode ser criado.
 2. **Leitura de Dados**:
