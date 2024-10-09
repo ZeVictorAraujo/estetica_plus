@@ -1,17 +1,26 @@
-# Situação de aprendizagem 02 - Atividade prática testes de integração com Jest
-- Unidade curricular: Testes de Sistemas
-- Docente: Marcos Vinicius
-- Objetivo da SA2: Você recebeu a demanda da realização de testes de um sistema de cadastro de agendamentos da empresa Estética Plus. A abordagem consiste em realizar os testes unitários e de integração com o banco de dados. Para a realização dos testes você poderá usar o JEST para testar os resultados esperados e para integrar os testes com o banco de dados MYSQL.
+# Testes de Integração para Sistema de Cadastro de Agendamentos
 
-# No arquivo de teste implemente as outras estruturas de teste do CRUD:
-- Inserção - Verifique se um novo agendamento para ser criado;
-- Leitura de dados
-- Select em um tabela;
-- select com um nome específico;
-- Selecionar por parte do nome;
-- Selecionar um intervalo de datas específicas onde as pessoas que realizaram a marcação;
-- Update: verifique se um usuário pode ser atualizado corretamente;
-- Delete: Verifique se um usuário pode ser deletado.
-- No método afterAll realize o encerramento da conexão com o banco de dados e a limpeza da tabela onde foram inseridos os dados;
-- Implementação de teste de performance (Professor explicará na próxima aula);
-- Realize a documentação dos testes feitos no documento modelo de testes;
+## Situação de Aprendizagem 02
+
+### Unidade Curricular: Testes de Sistemas
+**Docente:** Marcos Vinicius
+
+---
+
+## Objetivo
+O objetivo desta atividade prática é realizar testes de integração de um sistema de cadastro de agendamentos da empresa Estética Plus. Serão realizados testes unitários e de integração utilizando Jest para verificar o funcionamento correto do sistema e sua interação com um banco de dados MySQL.
+
+---
+
+## Estrutura do Teste CRUD
+
+O arquivo de teste `agendamentos.test.js` implementa as seguintes operações do CRUD (Create, Read, Update, Delete):
+
+1. **Inserção** - Verifica se um novo agendamento pode ser criado.
+2. **Leitura de Dados**:
+   - Seleção de todos os agendamentos.
+   - Seleção de agendamentos com um nome específico.
+   - Seleção de agendamentos com parte do nome.
+   - Seleção de agendamentos em um intervalo de datas específicas.
+3. **Atualização** - Verifica se um agendamento pode ser atualizado corretamente.
+4. **Deleção** - Verifica se um agendamento pode ser deletado.
